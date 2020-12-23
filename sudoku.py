@@ -67,8 +67,6 @@ def main():
 	SOLVE_CHECK = 0 
 	RESET_CHECK = 0 
 	NEWGAME_CHECK = 0
-	CLOCK_IMAGE = pygame.image.load('clock.png')
-	SMALL_CLOCK_IMAGE = pygame.transform.scale(CLOCK_IMAGE, (40, 40))
 	generate()
 	pygame.init()
 	pygame.mixer.init()
